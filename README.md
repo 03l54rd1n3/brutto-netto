@@ -1,7 +1,7 @@
 # Brutto-Netto Gehaltsrechner
 
 Node.js-Programm zum Abrufen einer Spanne von Gehältern von 
-https://www.brutto-netto-rechner.info/.
+https://www.brutto-netto-rechner.info/. Ein Beispiel befindet sich unter [EXAMPLE.md](EXAMPLE.md)
 
 Beim Aufruf von ```index.html``` erstellt das Programm eine CSV-Datei.
 
