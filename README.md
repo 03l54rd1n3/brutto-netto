@@ -7,7 +7,9 @@ Beim Aufruf von ```index.html``` erstellt das Programm eine CSV-Datei.
 
 Zum ändern des Gehaltsbereichs muss in ```index.html```:
 
-```const bereich = [30000, 120000];```
+``` Javascript
+const bereich = [30000, 120000];
+```
 
 angepasst werden.
 
