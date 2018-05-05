@@ -3,9 +3,9 @@
 Node.js-Programm zum Abrufen einer Spanne von Gehältern von 
 https://www.brutto-netto-rechner.info/. Ein Beispiel befindet sich unter [EXAMPLE.md](EXAMPLE.md).
 
-Beim Aufruf von ```index.html``` erstellt das Programm eine CSV-Datei.
+Beim Aufruf von ```index.js``` erstellt das Programm eine CSV-Datei.
 
-Zum ändern des Gehaltsbereichs muss in ```index.html```:
+Zum ändern des Gehaltsbereichs muss in ```index.js```:
 
 ``` Javascript
 const bereich = [30000, 120000];
