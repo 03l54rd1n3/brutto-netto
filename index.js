@@ -51,7 +51,10 @@ for(var i = bereich[0]; i <= bereich[1]; i+=1000) {
         var nettoMonat = toFixed(gehalt.nMonat);
         var s = `${bruttoMonat};${bruttoJahr};${nettoMonat};${nettoJahr}\n`;
         zeilen.push([gehalt.bJahr, s]);
-        fs.appendFile('gehaelter.csv', s);
+        fs.appendFile('gehaelter.csv', s, function (err) {
+            if (err) throw err;
+            // console.log({"bruttoJahr": bruttoJahr, "bruttoMonat": bruttoMonat, "nettoJahr": nettoJahr, "nettoMonat": nettoMonat});
+        }));
         counter += 1000;
     }).then(() => {
         if (counter == bereich[1] - bereich[0] + 1000) { // done
